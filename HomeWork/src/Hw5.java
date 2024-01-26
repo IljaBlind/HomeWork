@@ -1,12 +1,12 @@
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * AIT-TR, Java Basic, Cohort 42-1, Hw 5
+ * @author Ilja Blind
+ * @version 24.01.2024
+ */
 public class Hw5 {
-    /**
-     * AIT-TR, Java Basic, Cohort 42-1, Hw 5
-     * @author Ilja Blind
-     * @version 24.01.2024
-     */
     public static void main(String[] args) {
 
         //task 1
