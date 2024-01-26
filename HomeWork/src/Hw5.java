@@ -13,9 +13,20 @@ public class Hw5 {
         //task 2
 
         Scanner scanner = new Scanner(System.in);
-        int a = 1;
-        int b = 2;
-        int c = 3;
+        System.out.println("Enter a number (1 , 2 or 3):");
+        int number = scanner.nextInt();
+        if (number == 1) {
+            System.out.println("one");
+        }else if (number == 2) {
+            System.out.println("two");
+        }else if (number == 3) {
+            System.out.println("three");
+        }else {
+            System.out.println("Error, wrong number");
 
+            //task 3
+
+            
+        }
     }
 }
