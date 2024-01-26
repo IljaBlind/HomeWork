@@ -11,9 +11,22 @@ public class Hw5 {
 
         //task 1
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("First number:");
+        int nn1 = scanner.nextInt();
+        System.out.println("Second number:");
+        int nn2 = scanner.nextInt();
+        boolean a1 = nn1 % 2 == 0;
+        boolean a2 = nn2 % 2 == 0;
+        boolean b1 = nn1 % 3 == 0;
+        boolean b2 = nn2 % 3 == 0;
+        boolean c1 = a1 && b1;
+        boolean c2 = a2 && b2;
+        System.out.println("number:" + nn1 + "even: " + a1 + ";" + "multiple 3:" + b1 + ";" + "even and multiple 3:" + c1);
+        System.out.println("number:" + nn2 + "even: " + a2 + ";" + "multiple 3:" + b2 + ";" + "even and multiple 3:" + c2);
+
         //task 2
 
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number (1 , 2 or 3):");
         int number = scanner.nextInt();
         if (number == 1) {
