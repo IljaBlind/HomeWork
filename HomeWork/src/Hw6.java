@@ -70,5 +70,20 @@ public class Hw6 {
                 System.out.println(v);
             }
         } while (v <= 100);
+
+        //task 5
+
+        String wassap;
+        int counter = 0;
+        String request = "Type: Wassap, to end the task.";
+        do {
+            counter++;
+            System.out.println(request);
+            wassap = scanner.next();
+            request = "Not this time, try again!";
+        } while (!wassap.equals("Wassap"));
+        String attempt = (counter == 1) ? " attempt" : " attempts";
+        System.out.println("Congrats, u did it!");
+        System.out.println("You used " + counter + attempt + " to solved it");
     }
 }
