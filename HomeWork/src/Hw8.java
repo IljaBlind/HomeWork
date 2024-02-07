@@ -37,7 +37,6 @@ public class Hw8 {
         Random random = new Random();
         int[] f = new int[100];
         int sum = 0;
-        // fill array with random int numbers
         for (int i = 0; i < f.length; i++ ) {
             f[i] = random.nextInt(100);
         }
