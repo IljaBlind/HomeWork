@@ -49,7 +49,7 @@ public class Hw13 {
     }
 
         // Perform a binary search for the given value in the given array
-     public static int binarySearch(int[] arr, int value) {
+    public static int binarySearch(int[] arr, int value) {
         int left = 0;
         int right = arr.length - 1;
         while (left <= right) {
