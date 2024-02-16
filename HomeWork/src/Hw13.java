@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class Hw13 {
     public static void main(String[] args) {
-        int size = 100_000; // Change this to 100_000_000 to measure the time for a larger array
+        int size = 100_000_000; // Change this to 100_000_000 to measure the time for a larger array
 
         // Create an array of random integers
         int[] arr = new int[size];
@@ -42,7 +42,7 @@ public class Hw13 {
     public static int linearSearch(int[] arr, int value) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == value) {
-                    return i;
+                return i;
             }
         }
         return -1;
