@@ -1,6 +1,6 @@
 package hw17;
 /**
- * AIT-TR, Java Basic, Cohort 42-1, Hw 16
+ * AIT-TR, Java Basic, Cohort 42-1, Hw 17
  * @author Ilja Blind
  * @version 23.02.2024
  */
